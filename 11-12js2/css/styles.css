@@ -1,0 +1,29 @@
+body{
+    background: #eeeeee;
+}
+
+.big-box {
+    background: #ffffff;
+    width: 512px;
+    height: 750px;
+    margin: auto;
+    padding: 50px 50px 50px 60px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3)
+}
+.img{
+    text-align: center;
+}
+
+.box_1 {
+    border-bottom: 1px solid;
+}
+.box_2 {
+    border-bottom: 1px solid;
+}
+.box_3 {
+    border-bottom: 1px solid;
+    padding: 0 0 10px;
+}
+.p2{
+    line-height: 15px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11-12js2</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="lodash_block">
+    <script type="text/html" id="lodash-template">
+        <div class="big-box">
+        <div class="box_1">
+            <h1><%-name%></h1>
+            <div class="img">
+                <img src=<%=photoLink%> width="200" height="250" alt=<%-photoAlt%> title="на мотоцикле">
+            </div>
+            <p><%-work%></p>
+        </div>
+        <div class="box_2">
+            <p>Хочу учить фронтенд, потому что:</p>
+            <ul>
+                <% items.forEach(function(item) { %>
+                <li><%-item%></li>
+                <% }); %>
+            </ul>
+        </div>
+        <div class="box_3">
+            <div class="box_3-1">
+                <p><%-phoneInfo%></p>
+                <p><%-phoneNum%></p>
+            </div>
+            <div class="box_3-2">
+                <p class="p3"><%-vkProfil%></p>
+                <p class="p4">
+                    <a class="line_2" href="<%=vkLink%>" target="_blank">vk.com</a>
+                </p>
+            </div>
+        </div>
+        </div>
+    </script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/lodash/4.12.0/lodash.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
